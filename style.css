@@ -1,14 +1,22 @@
 body {
-    background-color: aquamarine; text-align: justify;
+    background-color: rgb(223, 185, 216);
+    text-align: justify;
 }
 
 h1 {
-    color: red; text-align: center;
+    color: #a753ba;
+    text-align: center;
 }
+
 h2 {
-    color: coral; text-align: center;
+    color: #bb87ca;
+    text-align: center;
 }
 
 p {
     font-size: 30px;
+}
+
+span {
+    color: #f768b3
 }
