@@ -1,22 +1,36 @@
 body {
-    background-color: rgb(223, 185, 216);
+    background-color: rgb(219, 209, 214);
     text-align: justify;
 }
 
 h1 {
-    color: #a753ba;
+    color: red;
     text-align: center;
 }
 
 h2 {
-    color: #bb87ca;
+    color: coral;
     text-align: center;
+}
+
+h3 {
+    text-align: center;
+    border: 5px double red;
+    padding: 10px;
+    margin: 100px;
 }
 
 p {
     font-size: 30px;
 }
 
-span {
-    color: #f768b3
+#imagem1 {
+    border: 5px solid #a753ba;
+    width: 50px;
+}
+
+#imagem2 {
+    border: 10px dotted #711b84;
+    height: 10%;
+    width: 10%;
 }
