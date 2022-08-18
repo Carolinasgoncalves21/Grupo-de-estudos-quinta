@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    color: red;
+    color: blue;
     text-align: center;
 }
 
@@ -20,6 +20,11 @@ h3 {
     margin: 100px;
 }
 
+h4{
+    color: red;
+    text-align: center;
+}
+
 p {
     font-size: 30px;
 }
@@ -33,4 +38,26 @@ p {
     border: 10px dotted #711b84;
     height: 10%;
     width: 10%;
+}
+.imagem3 {
+    width: 30%;
+    height: 40%;
+}
+
+li::marker {
+    content: "\2606";
+    color:blue;
+    font-size: 30px;
+}
+
+.itens {
+    background-color: black;
+    color: yellow;
+  
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    margin: 5%;
 }
